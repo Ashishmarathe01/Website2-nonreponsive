@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    /* border: 1px solid gold; */
+    max-width: 1200px;
+    
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../kokan.jpg);
+    background-position: center;
+    background-size: cover;
+   
+    height:100vh;
+
+}
+ul{ 
+    margin: 25px;
+    /* border: 1px solid black; */
+    float:right; 
+    list-style-type: none;  /*to delet piont*/
+
+}
+ ul li{
+    display: inline-block;
+}
+ul li a{
+    border: 1px solid white;
+    text-decoration: none;
+    color: honeydew;
+    padding: 5px 20px ;
+    transition:  0.6 ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.logo img{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 50px;
+    height: auto;
+    float: left;
+}
+
+ul li .act a{
+    background-color: white;
+    color: black;
+}
+
+.tit{
+    position: absolute;
+    top: 50%;
+    left: 50% ;
+    transform: translate(-50%,-50%);
+
+}
+
+h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.but{
+    color:#fff;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.but:hover{
+    background-color: white;
+    color: black;
+    margin: 2px;
+
+}
